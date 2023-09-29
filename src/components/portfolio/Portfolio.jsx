@@ -1,4 +1,7 @@
 import React from 'react'
+import SIMS from '../../../public/img/project1.jpg'
+import onlineShop from '../../../public/img/project2.jpg'
+import shoopingCart from '../../../public/img/project3.jpg'
 
 const Portfolio = () => {
   return (
@@ -12,16 +15,16 @@ const Portfolio = () => {
 
 
         <div className='border bg-white shadow-md rounded-md'>
-          <img src='/public/img/project1.jpg' className='w-full md:h-60 mb-3' />
+          <img src={SIMS} className='w-full md:h-60 mb-3' />
           <div className='px-4 py-3 rounded-lg border-t'>
-            <h1 className='text-textPrimary font-semibold text-lg text-center'>SIMP</h1>
+            <h1 className='text-textPrimary font-semibold text-lg text-center'>SIMS</h1>
             <p className='font-normal text-xs text-zinc-500 mt-2 text-center truncate'>Fetching API with React JS + Vite, Axios, React-redux & Toolkit management state Access Token</p>
             <a href='https://github.com/rafiramdani1/sims-ppob' className='block text-center w-full bg-textPrimary text-white py-1 rounded-lg mt-3 text-base hover:bg-hoverTextPrimary'>Show Detail</a>
           </div>
         </div>
 
         <div className='border bg-white shadow-md rounded-md'>
-          <img src='/public/img/project2.jpg' className='w-full md:h-60 mb-3' />
+          <img src={onlineShop} className='w-full md:h-60 mb-3' />
           <div className='px-4 py-3 rounded-lg border-t'>
             <h1 className='text-textPrimary font-semibold text-lg text-center'>ONLINE SHOP</h1>
             <p className='font-normal text-xs text-zinc-500 mt-2 text-center truncate'>Full Stack Mern Stack - Authentication and Authorization user role - token and refreh token</p>
@@ -30,7 +33,7 @@ const Portfolio = () => {
         </div>
 
         <div className='border bg-white shadow-md rounded-md'>
-          <img src='/public/img/project3.jpg' className='w-full md:h-60 mb-3' />
+          <img src={shoopingCart} className='w-full md:h-60 mb-3' />
           <div className='px-4 py-3 rounded-lg border-t'>
             <h1 className='text-textPrimary font-semibold text-lg text-center'>Shopping Cart</h1>
             <p className='font-normal text-xs text-zinc-500 mt-2 text-center truncate'>React Js + vite - management cart state global redux toolkit</p>
