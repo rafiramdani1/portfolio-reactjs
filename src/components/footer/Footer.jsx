@@ -2,21 +2,21 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <section id='contact' className='bottom-0 w-full font-url bg-white h-32 border-t border-zinc-300'>
-      <div className='container flex flex-wrap py-5 justify-center'>
+    <section id='contact' className='bottom-0 w-full font-url bg-white border-t border-zinc-300'>
+      <div className='container grid grid-cols-1 md:grid-cols-2 py-5 px-4'>
 
-        <div className='w-1/2'>
+        <div className='border-b'>
           <h1 className='text-base font-medium text-textPrimary underline'>Muhammad Rafi Ramdani</h1>
           <div className='mt-1'>
-            <h3 className='font-normal text-sm text-textPrimary'>Contact me <i class="uil uil-message"></i></h3>
+            <h3 className='font-normal text-sm text-textPrimary'>Contact me <i className="uil uil-message"></i></h3>
             <div className='mt-2'>
-              <h3 className='text-xs font-medium text-zinc-500'><i class="uil uil-envelope"></i> rafiramdani321@gmail.com</h3>
-              <h3 className='text-xs font-medium text-zinc-500'><i class="uil uil-whatsapp"></i> 08551773136</h3>
+              <h3 className='text-xs font-medium text-zinc-500'><i className="uil uil-envelope"></i> rafiramdani321@gmail.com</h3>
+              <h3 className='text-xs font-medium text-zinc-500 mb-3'><i className="uil uil-whatsapp"></i> 08551773136</h3>
             </div>
           </div>
         </div>
 
-        <div className='w-1/2'>
+        <div className='mb-10 mt-5 md:mt-0'>
           <div className='flex flex-wrap justify-center'>
 
             <a href='https://www.instagram.com/mrafiiiiiii_/' className='block text-xl text-textPrimary hover:text-hoverTextPrimary px-2' target='_blank'>
@@ -24,7 +24,7 @@ const Footer = () => {
             </a>
 
             <a href='#' className='block text-xl text-textPrimary hover:text-hoverTextPrimary px-2' target='_blank'>
-              <i class="uil uil-dribbble"></i>
+              <i className="uil uil-dribbble"></i>
             </a>
             <a href='https://github.com/rafiramdani1' className='block text-xl text-textPrimary hover:text-hoverTextPrimary px-2' target='_blank'>
               <i className='uil uil-github-alt'></i>

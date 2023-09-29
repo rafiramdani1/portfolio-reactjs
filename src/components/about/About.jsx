@@ -39,7 +39,7 @@ const About = () => {
         <a href={CV} className='flex w-fit justify-center border text-base font-semibold text-zinc-50 bg-textPrimary hover:bg-hoverTextPrimary rounded-lg px-3 py-4 mt-10' target='_blank'>Download CV
 
           <svg
-            class="ml-2"
+            className="ml-2"
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"

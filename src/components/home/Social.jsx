@@ -7,7 +7,7 @@ const Social = () => {
         <i className='uil uil-instagram'></i>
       </a>
       <a href='#' className='block text-xl mb-5 text-textPrimary hover:text-hoverTextPrimary' target='_blank'>
-        <i class="uil uil-dribbble"></i>
+        <i className="uil uil-dribbble"></i>
       </a>
       <a href='https://github.com/rafiramdani1' className='block text-xl mb-5 text-textPrimary hover:text-hoverTextPrimary' target='_blank'>
         <i className='uil uil-github-alt'></i>

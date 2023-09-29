@@ -1,9 +1,17 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 
 const Data = () => {
+  const [showText, setShowText] = useState(false)
+
+  useEffect(() => {
+    // Setelah komponen dimuat, set showText menjadi true
+    setShowText(true);
+  }, []);
+
   return (
     <div className='w-[70%] md:w-1/2 ml-10'>
-      <h1 className='text-3xl text-textPrimary font-semibold md:text-3xl lg:text-4xl'>Muhammad Rafi Ramdani
+
+      <h1 className=' text-3xl text-textPrimary font-semibold md:text-3xl lg:text-4xl'>Muhammad Rafi Ramdani
       </h1>
 
       <h3 className='flex text-base text-textPrimary font-normal mb-5 mt-5 md:text-sm md:mt-3 md:mb-3 lg:text-base lg:mb-5 lg:mt-5'><span className='flex mt-3 w-14 mr-3 h-[1px] font-normal bg-zinc-500'></span>
@@ -14,7 +22,7 @@ const Data = () => {
         Contact
 
         <svg
-          class="ml-1"
+          className="ml-1"
           xmlns="http://www.w3.org/2000/svg"
           width="24"
           height="24"

@@ -4,7 +4,7 @@ const Header = () => {
   const [toggle, showMenu] = useState(false)
   return (
     <div>
-      <header className='w-full h-14 fixed left-0 z-50 bg-white bottom-0 border-b border-zinc-300  px-3 md:top-0'>
+      <header className='w-full h-14 fixed left-0 z-50 bg-white bottom-0 border-t border-b border-zinc-300  px-3 md:top-0'>
 
         <nav className='container h-10 flex justify-between gap-4 mt-4 pb-4 px-5'>
 
@@ -15,7 +15,7 @@ const Header = () => {
           </div>
           <div className={toggle ? 'bottom-0 fixed w-full bg-zinc-50 px-8 py-7 border rounded-lg shadow-inner left-0 md:flex md:bottom-3/4 md:bg-transparent md:-top-2 lg:-ml-[128px] md:justify-end lg:fixed md:border-none md:shadow-none' : 'md:block hidden'}>
 
-            <i class="uil uil-times text-textPrimary text-2xl hover:text-hoverTextPrimary block absolute right-7 bottom-7 cursor-pointer md:hidden" onClick={() => showMenu(false)}></i>
+            <i className="uil uil-times text-textPrimary text-2xl hover:text-hoverTextPrimary block absolute right-7 bottom-7 cursor-pointer md:hidden" onClick={() => showMenu(false)}></i>
 
             <ul className='md:flex md:gap-8 grid gap-8 grid-cols-3 mb-8 md:py-0'>
               <li>
